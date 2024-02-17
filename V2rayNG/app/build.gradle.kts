@@ -11,8 +11,8 @@ android {
         applicationId = "com.v2ray.ang"
         minSdk = 21
         targetSdk = 34
-        versionCode = 542
-        versionName = "1.8.15"
+        versionCode = 547
+        versionName = "1.8.16"
         multiDexEnabled = true
     }
 
@@ -103,8 +103,8 @@ dependencies {
 
     //kotlin
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.22")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.0")
 
     implementation("com.tencent:mmkv-static:1.3.3")
     implementation("com.google.code.gson:gson:2.10.1")
